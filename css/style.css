@@ -1,0 +1,188 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.row{
+    text-align: start;
+    /* margin: auto; */
+    display: inline-block;
+    
+}
+
+.row p{
+    display: inline-block;
+    color: #8294C4;
+    margin-left: 1rem;
+    font-weight: bolder;
+}
+
+i{
+    color: #8294C4;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+body{
+    text-align: center;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+p{
+    line-height: 2;
+    font-size: 1.2rem;
+}
+
+.section{
+    padding: 5rem 2rem;
+}
+.profile {
+    text-align: center;
+    /* height: 100vh; */
+    background-color: #DBDFEA;
+}
+
+.profile h1{
+    
+    font-size: 3rem;
+    color: #8294C4;
+}
+
+.profile p{
+    margin-top: 1rem ;
+    font-size: 22px;
+    color: #ACB1D6;
+    font-weight: 900;
+}
+
+.profile-img{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background: url('../img/profile/profile.png');
+    background-color: #ACB1D6;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.skill-row{
+    display: flex;
+    
+    /* align-items: center; */
+    justify-content: center;
+    max-width: 1024px;
+    /* display: inline-block; */
+    margin: 2rem auto 1rem auto;
+    padding: 2rem 0;
+
+}
+
+.my-skill-heading{
+
+    
+    font-weight: 800;
+
+    color: #8294C4;
+}
+
+.skill-icon{
+    /* display: block; */
+    font-size: 12rem;
+    float: left;
+    margin-right: 1.5rem;
+}
+
+.web-img{
+    float: left;
+}
+
+.mobile-img{
+    /* position: relative; */
+    /* height: 100%; */
+    float: right;
+    vertical-align: middle;
+}
+
+.skill-detail{
+    max-width: 800px;
+    /* float: right; */
+}
+
+.skill-heading{
+    color: #8294C4;
+    font-weight: 900;
+    font-size: 1.8rem;
+    text-align: start;
+    margin-bottom: 1rem;
+}
+
+.float-right{
+    float: right;
+    margin-left: 1.2rem;
+}
+
+
+
+.skill-description{
+    text-align: start;
+}
+
+.skill-detail-2{
+    /* margin-right: 10rem; */
+    max-width: 800px;
+    /* float: right; */
+    /* float: left; */
+    clear: left;
+    /* clear: right; */
+}
+
+.get-in-touch{
+    color: #8294C4;
+}
+
+.experience{
+    background: #f1f1f1;
+}
+
+
+@media(max-width:700px){
+    .row p{
+        /* display: inline-block; */
+        font-size: 1.2rem;
+        /* color: #8294C4; */
+        /* margin-left: 1rem; */
+        /* font-weight: bolder; */
+    }
+    .skill-row{
+        flex-wrap: wrap;
+        margin: 1rem auto 0 auto;
+    }  
+
+    .skill-row:nth-child(3){
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        margin: 1rem auto 0 auto;
+    }  
+
+    .skill-heading{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .skill-detail{
+        margin: 2rem auto 1rem auto ;
+    }
+}
+
+
+
+
+
+
